@@ -11,32 +11,32 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Smart Scanning',
+    Svg: require('@site/static/img/security-amico.svg').default,
+    description: (
+      <>
+        Automatically detect API keys, tokens, and secrets in your codebase. 
+        Catch mistakes before they ever reach GitHub.
+      </>
+    ),
+  },
+  {
+    title: 'Instant Remidiation',
+    Svg: require('@site/static/img/electrician-amico.svg').default,
+    description: (
+      <>
+        One command to migrate detected variables into a safe <code>.env</code> file with 
+        proper naming suggestions. Secure your project in seconds.
+      </>
+    ),
+  },
+  {
+    title: 'Transparent & Documented',
     Svg: require('@site/static/img/agreement-amico.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
-  },
-  {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Every rule, detection, and change is fully documented in your project wiki. 
+        Stay in control, no black boxes.
       </>
     ),
   },
