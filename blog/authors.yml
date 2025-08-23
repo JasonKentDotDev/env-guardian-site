@@ -1,0 +1,13 @@
+kent:
+  name: Jason Kent
+  title: Env Guardian maintainer
+  url: https://jasonkent.dev/
+  image_url: https://github.com/JasonKentDotDev.png
+  page:
+    # customize the url of the author page at /blog/authors/<permalink>
+    permalink: '/all-jason-kent-articles'
+  socials:
+    x: JasonKent_
+    linkedin: jasonbkent
+    github: JasonKentDotDev
+    newsletter: https://jasonkent.dev/blog/

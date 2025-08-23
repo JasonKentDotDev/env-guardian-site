@@ -1,0 +1,9 @@
+release:
+  label: Release
+  permalink: /release
+  description: Release tag for all version release changelogs
+
+v1.x.x:
+  label: v1.x.x
+  permalink: /v1
+  description: Tag for all releases under v1
