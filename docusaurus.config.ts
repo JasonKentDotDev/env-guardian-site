@@ -3,7 +3,7 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'Env Guardian',
+  title: 'Env-Guardian',
   tagline: "Don't let secrets sneak by and get published, scan your project with env-guardian!",
   favicon: 'img/favicon.ico',
 
@@ -13,7 +13,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://env-guardian.online',
   baseUrl: '/',
 
   // GitHub pages deployment config.
@@ -63,7 +63,7 @@ const config: Config = {
       title: 'env-guardian',
       logo: {
         alt: 'env-guardian shield',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       items: [
         {
