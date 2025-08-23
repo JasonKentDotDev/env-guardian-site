@@ -21,7 +21,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            npm install --save-dev @jkdd/env-guardian
+            npm install @jkdd/env-guardian
           </Link>
         </div>
       </div>

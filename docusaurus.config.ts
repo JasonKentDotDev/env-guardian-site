@@ -58,7 +58,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'img/env-guardian.png',
     navbar: {
       title: 'env-guardian',
       logo: {
@@ -109,7 +109,7 @@ const config: Config = {
           title: 'More',
           items: [
             { label: 'Changelog', to: '/changelog' },
-            { label: 'GitHub', href: 'https://github.com/JasonKentDotDev/env-guardian' },
+            { label: 'NPM', href: 'https://npmjs.com/@jkdd/env-guardian'}
           ],
         },
       ],
