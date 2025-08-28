@@ -11,7 +11,7 @@ sidebar_position: 1
 
 
 ```bash
-npm i --save-dev @jkdd/env-guardian@latest
+npm install @jkdd/env-guardian@latest
 ```
 
 
