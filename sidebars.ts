@@ -1,7 +1,9 @@
 module.exports = {
-  tutorialSidebar: [
+  documentationSidebar: [
     "intro", 
-    "commands", 
+    {
+      "commands": ["scan", "ignore"]
+    },
     "contributing"
   ],
 };
