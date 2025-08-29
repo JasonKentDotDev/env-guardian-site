@@ -1,4 +1,4 @@
-release:
+Release:
   label: Release
   permalink: /release
   description: Release tag for all version release changelogs
