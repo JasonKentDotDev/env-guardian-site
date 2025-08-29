@@ -8,7 +8,7 @@ sidebar_position: 1
 
 `env-guardian` scans your codebase for hardcoded secrets and suggests `.env` variables.
 
-Install Env-Guardian into your project
+Install Env-Guardian to your project
 ```bash
 # npm
 npm install @jkdd/env-guardian@latest
