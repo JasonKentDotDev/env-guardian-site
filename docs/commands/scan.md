@@ -10,10 +10,10 @@ You can scan all compatible files from your project's root directory, or you can
 
 ```bash
 # Scan all compatible files.
-env-guardian scan
+$ env-guardian scan
 
 # Scan all compatible files in a specific directory
-env-guardian scan src
+$ env-guardian scan src
 ```
 
 When the scan runs, it will detect Environment Variable usages in your code, and then it will detect possible values that should probably be moved into your `.env` file.
