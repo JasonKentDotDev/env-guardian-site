@@ -33,7 +33,7 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title} | JasonKentDotDev`}
+      title={`${siteConfig.title}`}
       description="Don't let another Environment Variable slip through your git commit again!">
       <HomepageHeader />
       <main>
