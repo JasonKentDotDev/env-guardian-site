@@ -42,6 +42,9 @@ yarn add @jkdd/env-guardian@latest
   - Kotlin (.kt)
   - Go (.go)
   - C# (.cs)
+  - Dockerfile
+  - NPM config files (npmrc, yarnrc)
+  - CI/CD (github, gitlab, circleci, azure)
 - Suggests likely environment variables from hardcoded values (keys, secrets, tokens, passwords, URLs, etc.)  
 - Highlights results:
   - ✅ Existing variables in **green** 🟢

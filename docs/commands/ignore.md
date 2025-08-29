@@ -69,11 +69,17 @@ $ env-guardian ignore-list
 
 If you look at the contents of `.envscanignore.json` you can see your rules added.
 ```json
-// Example file contents.
+// Example .envscanignore.json file contents.
 {
   "ignore": {
-    "variables": ['variableName', 'anotherVar'],
-    "files": ['path/to/file.js', 'another/path/typeFile.ts']
+    "variables": [
+      'variableName', 
+      'anotherVar'
+    ],
+    "files": [
+      'path/to/file.js', 
+      'another/path/typeFile.ts'
+    ]
   }
 }
 ```
