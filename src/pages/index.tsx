@@ -2,7 +2,6 @@ import type {ReactNode} from 'react';
 import clsx from 'clsx';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import { Analytics } from "@vercel/analytics/next"
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
 import Heading from '@theme/Heading';
@@ -40,7 +39,6 @@ export default function Home(): ReactNode {
       <main>
         <HomepageFeatures />
       </main>
-      <Analytics />
     </Layout>
   );
 }

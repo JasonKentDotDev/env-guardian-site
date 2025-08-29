@@ -57,6 +57,16 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    [
+      'vercel-analytics',
+      {
+        mode: 'auto',
+        debug: true,
+      },
+    ],
+  ],
+
   themeConfig: {
     image: 'img/env-guardian.png',
     navbar: {
