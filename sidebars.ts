@@ -1,9 +1,11 @@
 module.exports = {
   documentationSidebar: [
-    "intro", 
+    'intro',
     {
-      "commands": ["scan", "ignore"]
+      type: 'category',
+      label: 'Commands',
+      items: ['commands/scan', 'commands/ignore'],
     },
-    "contributing"
+    'contributing',
   ],
 };
