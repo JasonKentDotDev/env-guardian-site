@@ -41,7 +41,7 @@ Existing Environment Variables:
 Append suggestions to a `.env` file of the user's choosing. (.env.local, .env.production, etc.)
 
 ```bash
-# No argument passed to the flag
+# Argument passed to the flag
 $ env-guardian scan --to-env .env.local
 
 # Output
@@ -63,7 +63,7 @@ Existing Environment Variables:
 
 If no filename is passed in by the user, the command will default to `.env`
 ```bash
-# Argument passed to the flag
+# No argument passed to the flag
 $ env-guardian scan --to-env
 
 # Output
