@@ -13,7 +13,7 @@ $ env-guardian ignore variableName
 
 # Output
 ✔ Now ignoring variableName
-✨ Updated ignore config at path\to\.envscanignore.json
+✨ Updated ignore config at /path/to/.envscanignore.json
 ```
 
 You can ignore multiple variables at a time.
@@ -23,7 +23,7 @@ $ env-guardian ignore variableName anotherVar
 # Output
 ✔ Now ignoring variableName
 ✔ Now ignoring anotherVar
-✨ Updated ignore config at path\to\.envscanignore.json
+✨ Updated ignore config at /path/to/.envscanignore.json
 ```
 
 ---
@@ -35,8 +35,8 @@ Ignore all variables in a file if you know that there is and never will be sensi
 $ env-guardian ignore-files path/to/file.js
 
 # Output
-✔ Now ignoring ALL variables in path\to\file.js
-✨ Updated ignore config at path\to\.envscanignore.json
+✔ Now ignoring ALL variables in path/to/file.js
+✨ Updated ignore config at /path/to/.envscanignore.json
 ```
 
 You can ignore multiple files at a time.
@@ -44,9 +44,9 @@ You can ignore multiple files at a time.
 $ env-guardian ignore-files path/to/file.js another/path/file.ts
 
 # Output
-✔ Now ignoring ALL variables in path\to\file.js
-✔ Now ignoring ALL variables in another\path\file.ts
-✨ Updated ignore config at path\to\.envscanignore.json
+✔ Now ignoring ALL variables in path/to/file.js
+✔ Now ignoring ALL variables in another/path/file.ts
+✨ Updated ignore config at /path/to/.envscanignore.json
 ```
 
 ---
@@ -63,8 +63,8 @@ $ env-guardian ignore-list
 
 • variableName (globally)
 • anotherVar (globally)
-• ALL variables in path\to\file.js
-• ALL variables in another\path\file.js
+• ALL variables in path/to/file.js
+• ALL variables in another/path/file.js
 ```
 
 If you look at the contents of `.envscanignore.json` you can see your rules added.
@@ -84,33 +84,4 @@ If you look at the contents of `.envscanignore.json` you can see your rules adde
 }
 ```
 
----
-
-## `reset-ignore`
-Wipe the contents of your `.envscanignore.json` file.
-
-```bash
-$ env-guardian reset-ignore
-
-# Output on 'y' response
-This will overwrite .envscanignore.json. Continue? (y/N) y
-✨ Updated ignore config at path\to\.envscanignore.json
-🔄 ALL rules in `.envscanignore.json` have been reset
-✅ Reset complete
-
-# Output on 'n' response
-This will overwrite .envscanignore.json. Continue? (y/N) n
-❌ Reset canceled
-```
-
-When reset, the file will default back to:
-```json
-// Default .envscanignore.json file contents
-{
-  "ignore": {
-    "variables": [],
-    "files": []
-  }
-}
-```
 ---
