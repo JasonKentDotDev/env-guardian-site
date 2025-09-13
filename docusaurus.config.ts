@@ -74,6 +74,7 @@ const config: Config = {
       logo: {
         alt: 'env-guardian shield',
         src: 'img/logo.png',
+        srcDark: 'img/logo-white.png',
       },
       items: [
         {
