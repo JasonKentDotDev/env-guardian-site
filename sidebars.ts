@@ -1,6 +1,7 @@
 module.exports = {
   documentationSidebar: [
     'intro',
+    'global-flags',
     {
       type: 'category',
       label: 'Commands',
