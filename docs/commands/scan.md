@@ -83,4 +83,9 @@ Existing Environment Variables:
 ✨ Added 3 suggestion(s) to .env
 ```
 
+**Important note:** Environment variables and secrets go into very specific 
+files depending on what language or framework you are using. For a full list 
+of compatible file types and naming conventions, please read the documentation 
+found [here](https://env-guardian.online/docs/env-naming-conventions/env-files).
+
 ---
