@@ -16,7 +16,7 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
         Automatically detect API keys, tokens, and secrets in your codebase. 
-        Catch mistakes before they ever reach GitHub.
+        Catch forgotten secrets before they ever reach GitHub.
       </>
     ),
   },
@@ -26,7 +26,7 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
         One command to migrate detected variables into a safe <code>.env</code> file with 
-        proper naming suggestions. Secure your project in seconds.
+        proper naming suggestions <a href="https://env-guardian.online/env-naming-conventions/env-variables">here</a>. Secure your project in seconds.
       </>
     ),
   },
@@ -35,7 +35,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/agreement-amico.svg').default,
     description: (
       <>
-        Every rule, detection, and change is fully documented in your project wiki. 
+        Every rule, detection, and change is fully documented here in our wiki. 
         Stay in control, no black boxes.
       </>
     ),
