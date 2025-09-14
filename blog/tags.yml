@@ -12,3 +12,8 @@ v1.1.x:
   label: v1.1.x
   permalink: /v1.1
   description: Tag for all releases under v1.1
+
+v1.2.x:
+  label: v1.2.x
+  permalink: /v1.2
+  description: Tag for all releases under v1.2
