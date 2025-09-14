@@ -44,6 +44,6 @@ Different languages and frameworks have conventions for which `.env` files they 
 - Use **`.env`** for defaults.  
 - Use **`.env.local`** for secrets that should *not* be committed.  
 - Use **`.env.development`**, **`.env.production`**, **`.env.test`** when your framework supports environment-specific overrides.  
-- **Always** add your **`.env`** filename to **`.gitignore`**.  
+- **Always** remember to add your **`.env`** filename to **`.gitignore`** or double check that it's there already.  
 
 ---
