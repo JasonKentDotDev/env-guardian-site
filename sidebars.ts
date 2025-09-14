@@ -5,7 +5,7 @@ module.exports = {
     {
       type: 'category',
       label: 'Commands',
-      items: ['commands/scan', 'commands/ignore', 'commands/unignore'],
+      items: ['commands/scan', 'commands/priority', 'commands/ignore', 'commands/unignore'],
     },
     {
       type: 'category',

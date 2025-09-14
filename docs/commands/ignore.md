@@ -1,19 +1,19 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 
 # Ignoring Variables and Files
 
 ## `ignore`
-Ignore false positives by adding the variable(s) to the `.envscanignore.json` rules file.
+Ignore false positives by adding the variable(s) to the `.envscanconfig.json` rules file.
 
 ```bash
 $ env-guardian ignore variableName
 
 # Output
 ✔ Now ignoring variableName
-✨ Updated ignore config at /path/to/.envscanignore.json
+✨ Updated ignore config at /path/to/.envscanconfig.json
 ```
 
 You can ignore multiple variables at a time.
@@ -23,7 +23,7 @@ $ env-guardian ignore variableName anotherVar
 # Output
 ✔ Now ignoring variableName
 ✔ Now ignoring anotherVar
-✨ Updated ignore config at /path/to/.envscanignore.json
+✨ Updated ignore config at /path/to/.envscanconfig.json
 ```
 
 ---
@@ -36,7 +36,7 @@ $ env-guardian ignore-files path/to/file.js
 
 # Output
 ✔ Now ignoring ALL variables in path/to/file.js
-✨ Updated ignore config at /path/to/.envscanignore.json
+✨ Updated ignore config at /path/to/.envscanconfig.json
 ```
 
 You can ignore multiple files at a time.
@@ -46,7 +46,7 @@ $ env-guardian ignore-files path/to/file.js another/path/file.ts
 # Output
 ✔ Now ignoring ALL variables in path/to/file.js
 ✔ Now ignoring ALL variables in another/path/file.ts
-✨ Updated ignore config at /path/to/.envscanignore.json
+✨ Updated ignore config at /path/to/.envscanconfig.json
 ```
 
 ---
@@ -67,9 +67,9 @@ $ env-guardian ignore-list
 • ALL variables in another/path/file.js
 ```
 
-If you look at the contents of `.envscanignore.json` you can see your rules added.
+If you look at the contents of `.envscanconfig.json` you can see your rules added.
 ```json
-// Example .envscanignore.json file contents.
+// Example .envscanconfig.json file contents.
 {
   "ignore": {
     "variables": [

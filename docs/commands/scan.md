@@ -6,7 +6,8 @@ sidebar_position: 1
 # Scanning Files
 
 ## `scan` / `scan [dir]`
-You can scan all compatible files from your project's root directory, or you can specify a specific directory you want scanned.
+You can scan all compatible files from your project's root directory, or you can specify a 
+specific directory you want scanned.
 
 ```bash
 # Scan all compatible files.
@@ -16,7 +17,8 @@ $ env-guardian scan
 $ env-guardian scan src
 ```
 
-When the scan runs, it will detect Environment Variable usages in your code, and then it will detect possible values that should probably be moved into your `.env` file.
+When the scan runs, it will detect Environment Variable usages in your code, and then it 
+will detect possible values that should probably be moved into your `.env` file.
 
 ```bash
 # Output
@@ -32,6 +34,16 @@ Existing Environment Variables:
 [LOW] fullPath (found in: src\index.js)
 [MEDIUM] key (found in: src\page.js)
 [CRITICAL] awsAccessKey (found in: api\database-connection.sh)
+```
+
+If you are awesome, and there are no suggestions to be found, then you will ge this message:
+
+```bash
+# Output
+
+------------Environment Variable Report------------
+
+🎉 Congrats! You have no suggestions detected! 🎉
 ```
 
 ---

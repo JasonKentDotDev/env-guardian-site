@@ -59,7 +59,7 @@ yarn add @jkdd/env-guardian@latest
   - Option may have user defined filename added as well, `--to-env .env.local`
   - Any file creation or manipulation will happen in the project's root folder
 - Ignore false positives
-  - Ignore variables or files permanently via `.envscanignore.json`
+  - Ignore variables or files permanently via `.envscanconfig.json`
   - Reset ignores back to default
 
 ---
