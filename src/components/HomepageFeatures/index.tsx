@@ -26,7 +26,7 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
         One command to migrate detected variables into a safe <code>.env</code> file with 
-        proper naming suggestions <a href="https://env-guardian.online/env-naming-conventions/env-variables">here</a>. Secure your project in seconds.
+        proper naming suggestions <a href="https://env-guardian.online/docs/env-naming-conventions/env-variables">here</a>. Secure your project in seconds.
       </>
     ),
   },
