@@ -26,40 +26,27 @@ yarn add @jkdd/env-guardian@latest
 
 ## Features
 
-- Simple CLI, no config required!
-- Detects existing Environment Variable usage in the following file types:
-  - JavaScript (.js & .jsx)
-  - TypeScript (.ts & .tsx)
-  - Vue.js (.vue)
-  - Python (.py)
-  - Ruby (.rb)
-  - Shell Script (.sh)
-  - Bash (.bash)
-  - JSON (.json)
-  - Yaml (.yaml & .yml)
-  - PHP (.php)
-  - Java (.java)
-  - Kotlin (.kt)
-  - Go (.go)
-  - C# (.cs)
-  - Dockerfile
-  - NPM config files (npmrc, yarnrc)
-  - CI/CD (github, gitlab, circleci, azure)
-- Suggests likely environment variables from hardcoded values (keys, secrets, tokens, passwords, URLs, etc.)  
-- Highlights results:
-  - ✅ Existing variables in **green** 🟢
-  - ⚠ Suggested candidates in **yellow** 🟡
-- Priority is categorized by color as well:
-  - [CRITICAL] is in **red** 🔴
-  - [HIGH] is in **orange** 🟠
-  - [MEDIUM] is in **yellow** 🟡
-  - [LOW] is in **green** 🟢
-- Optional `.env` integration with `--to-env` option:
-  - Appends suggested keys to `.env` with a `# Suggested by env-guardian` marker
-  - Option may have user defined filename added as well, `--to-env .env.local`
-  - Any file creation or manipulation will happen in the project's root folder
-- Ignore false positives
-  - Ignore variables or files permanently via `.envscanconfig.json`
-  - Reset ignores back to default
+- ⚡ **Simple CLI** – just run `env-guardian scan`, no config required.  
+- 🔍 **Detects environment variable usage** across many file types:
+  - JavaScript (.js, .jsx) / TypeScript (.ts, .tsx) / Vue.js (.vue)  
+  - Python (.py) / Ruby (.rb) / PHP (.php)  
+  - Shell (.sh, .bash)  
+  - JSON (.json) / YAML (.yaml, .yml)  
+  - Java (.java) / Kotlin (.kt) / Go (.go) / C# (.cs)  
+  - Dockerfile, NPM config (.npmrc, .yarnrc), CI/CD configs (GitHub, GitLab, CircleCI, Azure)  
+- 🤖 **Suggests likely environment variables** from hardcoded values (keys, tokens, secrets, passwords, URLs, etc.).  
+- 🎨 **Color-coded results**:
+  - ✅ Existing variables in **green** 🟢  
+  - ⚠ Suggestions in **yellow** 🟡  
+  - [CRITICAL] **red** 🔴 | [HIGH] **orange** 🟠 | [MEDIUM] **yellow** 🟡 | [LOW] **green** 🟢  
+- 🎯 **Set scanning priority** with `set-priority` – filter results by severity (`low`, `medium`, `high`, `critical`).  
+- 📝 **Optional `.env` integration** with `--to-env`:
+  - Appends suggestions to `.env` (or a custom env file, e.g. `.env.local`)  
+  - Marks entries with `# Suggested by env-guardian`  
+  - Always writes to the project root  
+- 🚫 **Ignore false positives**:
+  - Ignore variables or entire files with `.envscanignore.json`  
+  - Remove specific ignores or reset back to defaults  
+
 
 ---
