@@ -34,7 +34,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/JasonKentDotDev/env-guardian/tree/main/docs/',
+          editUrl: 'https://github.com/JasonKentDotDev/env-guardian-site/',
         },
         blog: {
           blogTitle: 'Env Guardian Changelog',
@@ -45,7 +45,7 @@ const config: Config = {
             type: ['rss', 'atom'],
             xslt: true,
           },
-          editUrl: 'https://github.com/JasonKentDotDev/env-guardian/tree/main/changelog/',
+          editUrl: 'https://github.com/JasonKentDotDev/env-guardian/changelog/',
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
           onUntruncatedBlogPosts: 'warn',
